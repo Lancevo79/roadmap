@@ -13,12 +13,12 @@
     <header>
         <img src="img/foto_CV.png" alt="Foto de Francisco Molina" width="150">
         <hr size="3" color="black">
-        <h1>FRANCISCO MOLINA</h1>
+        <h1>FRANCISCO GONZALEZ</h1>
         <h2>Junior Frontend Developer</h2>
         <address>
-            Trekungagatan 21<br>
-            Kungälv 44232<br>
-            Tel: 0704262992<br>
+            Santa Magdalena 18<br>
+            Conill 44231<br>
+            Tel: 0704263344<br>
             <a href="mailto:francesc.molina@gmail.com">francesc.molina@gmail.com</a>
         </address>
     </header>
