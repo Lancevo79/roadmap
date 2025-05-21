@@ -1,5 +1,3 @@
-https://github.com/Lancevo79/roadmap
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
