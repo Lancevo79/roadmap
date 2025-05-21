@@ -1,4 +1,4 @@
-https://github.com/Lancevo79/roadmap/projects?query=is%3Aopen
+https://roadmap.sh/projects/single-page-cv
 <!DOCTYPE html>
 <html lang="en">
 <head>
