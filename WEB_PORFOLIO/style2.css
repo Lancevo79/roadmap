@@ -1,0 +1,227 @@
+.parent {
+    background: whitesmoke;
+    display:grid;
+    min-height: repeat 3(1fr);
+    grid-template-areas: "Cabezera Cabezera Cabezera"
+                         "Izquierda CentroArriba Derecha"
+                         "Izquierda Centroabajo Derecha"
+                         "footer footer footer";
+   /*  justify-items: center; Alinea los elementos (hijos) en horizontal (eje principal) dentro de cada celda.*/
+    /* align-items: center; Alinea los elementos (hijos) en vertical (eje principal) dentro de cada celda.*/
+    /* justify-content: center; Alinea el contenido (la cuadricula) en horizontal (eje secundario) en el contenedor padre.*/
+    /*  align-content: center; Alinea el contenido (la cuadricula) en vertical (eje secundario) en el contenedor padre.*/
+
+}
+
+
+
+.parent header {
+    grid-area: Cabezera;
+    background-color: whitesmoke;
+    border: solid 2px black;
+    height: 300px;
+    justify-content: center;
+    text-align: left;
+    padding: 25px 25px 100px;
+    
+}
+
+
+.style h1, h2, h3 {
+    font-family: "Caveat";
+    font-style: normal;
+    
+}
+
+
+.Dev {
+    text-align: center;
+    line-height: 200px;
+    font-family: "Caveat", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    
+}
+
+
+.izquierd {
+    text-align: left;
+    font-family: sans-serif;
+    font-style: normal;
+
+}
+
+.derech {
+    float: right;
+    font-family: sans-serif;
+    font-style: normal;
+    align-content: space-evenly;
+    
+}
+
+
+.parent .left_col {
+    border: solid 2px; color: black;
+    grid-area: Izquierda;
+    background-color:  whitesmoke;
+    border: solid 1px black;
+    font-family: sans-serif;
+    font-style: normal;
+    
+}
+
+
+.b11 {
+    padding-left: 20px;
+    
+}
+
+.b0 {
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-bottom: solid 3px;
+    font-weight: lighter;
+    font-size: 20px;
+    
+}
+
+.b1 {
+    border-bottom: solid 3px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.b2 {
+    border-bottom: solid 3px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.b3 {
+    border-bottom: solid 3px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.b4 {
+    padding-left: 20px;
+    padding-bottom: 8px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.parent .center_up {
+    border: solid 1px; color: black;
+    grid-area: CentroArriba;
+    padding-left: 20px;
+    height: 180px;
+       
+}
+
+.roadmap {
+    font-family: 'Caveat';
+    font-style: normal;
+    font-size: 20px;
+}
+
+.tx {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+.parent .center_down {
+    border: solid 1px; color: black;
+    grid-area: Centroabajo;
+    background-color: whitesmoke;
+    height: 230px;
+    padding-left: 20px;   
+}
+
+.parent .right_col {
+    border: solid 1px; color: black;
+    grid-area: Derecha;
+    background-color: whitesmoke;
+    padding-left: 25px;
+    font-family: sans-serif;
+    font-style: normal;
+   
+}
+
+
+.gon {
+    list-style-type: "-";
+    list-style-position: outside;
+    padding-left: 0;
+    margin: 0;
+}
+
+span { margin-left:0.3em }
+
+.parent .footer_ {
+    
+    border: solid 2px; color: black;
+    grid-area: footer;
+    background-color: whitesmoke;
+    height: 500px;
+    padding-left: 25px;
+    font-family: sans-serif;
+    font-style: normal;
+             
+}
+
+.rightss {
+    text-align: center;
+    font-family: 'Caveat', Courier, monospace;
+    font-weight: bolder;
+    font-size: 20px;
+    
+    
+}
+
+.tabla {
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    grid-template-areas: "sqr1 sqr2 sqr3";
+    justify-content: space-evenly;
+    padding-right: 150px;
+    padding-bottom: 150px;
+    margin-top: 25px;
+    font-family: sans-serif;
+    font-style: normal;
+   
+    
+}
+
+.sqr1 {
+    border: solid 3px; color: black;
+    border-radius: 25px;
+    padding: 25px;
+    
+}
+
+.sqr2 {
+    border: solid 3px; color: black;
+    border-radius: 25px;
+    padding: 25px;
+
+    }
+
+.sqr3 {
+    border: solid 3px; color: black;
+    border-radius: 25px;
+    padding: 25px;
+}    
+
+.profe {
+    text-align: left;
+    color: grey;
+    
+}
